@@ -1,6 +1,6 @@
 "use server";
 
-export async function loginUser(body: { email: string, password: string; madzi: string }) {
+export async function loginUserAction(body: { email: string, password: string; madzi: string }) {
   console.log("Logging in user with email:", body);
   const { email, password } = body;
   // Simulate a login process

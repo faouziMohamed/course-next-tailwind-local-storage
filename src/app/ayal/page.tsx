@@ -1,6 +1,6 @@
 "use client";
 
-import { loginUser as loginUserAction } from "@/actions/actions";
+import { loginUserAction } from "@/actions/auth.actions";
 import { useState } from "react";
 
 export default function AyaldinePage() {
